@@ -13,6 +13,6 @@ data "aws_route_tables" "default" {
 
   filter {
     name   = "association.main"
-    values = ["false"]
+    values = ["true"]
   }
 }
